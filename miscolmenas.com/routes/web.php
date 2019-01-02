@@ -28,6 +28,7 @@ Route::post('finalizar-tarea','Dasboard\DashboardController@finalizarTarea')->na
 Route::post('eliminar-tarea','Dasboard\DashboardController@eliminarTarea')->name('eliminar_tarea');
 Route::get('change-pass','Dasboard\DashboardController@cambiarPassword')->name('change_pass');
 Route::post('actualizar-pass','Dasboard\DashboardController@actualizarPassword')->name('actualizar_pass');
+Route::get('planes','Dasboard\DashboardController@mostrarPlanes')->name('planes');
 
 //rutas definidas para la gestion de apiarios
 Route::get('apiario','Dasboard\ApiarioController@index')->name('apiario');

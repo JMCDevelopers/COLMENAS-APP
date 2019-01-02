@@ -129,5 +129,23 @@ public function actualizarPassword(Request $request){
 }
 
 
+public function mostrarPlanes(){
+  try {
+    $id_cuenta_usuario=$this->getAcountIdUserAuth();
+    $cuenta=new Cuenta();
+    $tarea=new Tarea();
+
+
+    $data=array();
+    $user = auth()->user();
+    $data['permisos']=$cuenta->getUserAccount($user->id);
+    $data['tareas_pendientes']=$tarea->getTareasPendientes($id_cuenta_usuario);
+      return view('planes/planes',$data);
+  } catch (\Exception $e) {
+
+  }
+
+}
+
 
 }
