@@ -1,0 +1,56 @@
+
+/* cuadrito arratrable */
+#cuadro3,#cuadro1{
+    float: left;
+    width: 420px;
+    height: 300px;
+    padding: 10px;
+    margin: 10px;
+}
+
+ #papelera {
+    float: left;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+}
+#cuadro1{
+    /*background: #55f;*/
+}
+
+#cuadro2 {
+    background: #5f5;
+}
+
+#cuadro3 {
+
+}
+
+#papelera {
+
+}
+
+.cuadradito {
+
+    border: 2px solid #822;
+    width: 120px;
+    height: 100px;
+    padding: 0 10px 15px;
+    margin: 5px;
+}
+
+#arrastrable {
+
+    border: 2px solid #822;
+}
+
+#arrastrable2 {
+    background: #282;
+    border: 2px solid #228;
+}
+
+#arrastrable3 {
+    background: #822;
+    border: 2px solid #282;
+  }

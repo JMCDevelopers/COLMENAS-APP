@@ -1,0 +1,78 @@
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+    background-color: #fff;
+    opacity: 1;
+}
+
+
+.image-itca-vector
+{
+    background-image:url("<?= base_url('assets/librerias/images/login-academos.jpg') ?>");
+    background-position: center top;
+    background-size: 1170px 700px;
+    max-width: 1170px;
+    height: 700px;
+    margin: 0 auto;
+}
+/*            .row{
+    margin: 0;
+}*/
+ #contenido{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.shadow-gris{
+
+   box-shadow: 3px 3px 12px #333;
+}
+
+
+
+
+.pull-right *
+{
+    display: inline-block;
+}
+
+span.required{
+    color: #a94442;
+    font-weight: 700;
+}
+
+span.input-group-addon.left{
+    border-right: 0px;
+    color: grey;
+}
+span.input-group-addon.left + input{
+    border-left: 0px;
+}
+
+label {
+    font-weight: 300;
+}
+
+form li a {
+    background-color: #fff;
+}
+
+*::after, *::before {
+box-sizing: border-box;
+}
+*::after, *::before {
+box-sizing: border-box;
+}
+.form-control:not(textarea) {
+height: 25px;
+}
+
+div#button{
+margin: 0 auto;
+}
+
+.logo_mini
+{
+background-image:url("<?= base_url('assets/librerias/images/logo_academos_mini.png') ?>");
+background-position: center top;
+margin: 0 auto;
+width: 220px;
+height: 167px
+}

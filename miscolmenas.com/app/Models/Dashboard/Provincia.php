@@ -1,0 +1,11 @@
+<?php
+
+namespace App\Models\Dashboard;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Provincia extends Model
+{
+
+  protected $table="provincia";
+}
